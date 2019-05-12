@@ -143,6 +143,7 @@ $date = mysqli_fetch_array($result);
 ?>
 <div class="container2">
 <h1>Calorie counter</h1>
+<p> Here you can see the amount of calories you approximately burn in a day.<br> If you want to lose weight, you should eat about 300-500 calories less per day.<br> For gaining weight vice versa.<br> <br> <strong> Notice that this is only an estimation</strong> </p>    
 <div class=" alert alert-success result">  
 <h4> Current calory need: 
 <?php
