@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calc</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/progress.css">
+</head>
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #406efd;;
+  color: white;
+  padding: 14px 20px;
+  margin: 18px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #405efd;;
+}
+
+form {
+  font-size: 17px;
+  margin-top: 150px;
+}
+
+label {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+</style>
+
+<body>
+<!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="index2.php">FatLess</a>
+      <a class="btn btn-primary" href="index.html">Sign Out</a>
+    </div>
+  </nav>
+
+<div>
+  <form action= "<?php $_PHP_SELF ?>" method = "POST">
+    <label>weight</label>
+    <input type="number" name="weight" placeholder="kg">
+
+<?php print("<br>");
+print("<br>");
+?>
+
+<label>activity</label>
+    <select type="text" id="activity" name="activity">
+      <option value="sedentary">sedentary — Little or no exercise</option>
+      <option value="moderate">moderate  — Moderate exercise or sports 3 - 5 days/week</option>
+      <option value="active">active — Hard exercise or sports 6 - 7 days/week</option>
+    </select>
+</form>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>  
